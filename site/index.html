@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Compre pedras</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Produtos Disponíveis</h2>
+            <div class="produto" data-nome="Produto 1" data-preco="29.99">
+                <h3>Pedra</h3>
+                <p>Maravilhosa pedra, pode ser usada como peso para porta, arma mortal, decoração, etc.</p>
+                <p>Preço: R$ 29,99</p>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-nome="Produto 2" data-preco="49.99">
+                <h3>Pedra</h3>
+                <p>Pedra removida diretamente de um meteorito.</p>
+                <p>Preço: R$ 49,99</p>
+                <button class="adicionar">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+
+        <section id="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <ul id="lista-carrinho"></ul>
+            <p id="total">Total: R$ 0,00</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pedras.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
